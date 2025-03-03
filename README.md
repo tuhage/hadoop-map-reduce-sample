@@ -1,4 +1,4 @@
-# Hadoop ve MapReduce Eğitimi (WordCount Örneği)
+# Hadoop ve MapReduce
 
 Bu depo, Hadoop ve MapReduce kavramlarını uygulamalı olarak öğrenmek için hazırlanmış bir Docker tabanlı eğitim ortamı sunmaktadır. Bu örnek, bir metin dosyasındaki kelimelerin frekansını hesaplayan basit bir WordCount uygulamasını içerir.
 
