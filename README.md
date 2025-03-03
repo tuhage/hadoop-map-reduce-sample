@@ -12,7 +12,7 @@ Bu depo, Hadoop ve MapReduce kavramlarını uygulamalı olarak öğrenmek için 
 1.  Bu repoyu klonlayın:
 
     ```bash
-    git clone <repository_url>  # Buraya repoyu klonlamak için gerekli URL gelecek. Şimdilik bu satırı eklemeyeceğim.
+    git clone https://github.com/tuhage/hadoop-map-reduce-sample
     cd hadoop
     ```
 
