@@ -1,0 +1,9 @@
+Hadoop MapReduce ve HDFS'e Giriş
+Bu bir örnek metin dosyasıdır.
+Hadoop, büyük veri setlerini işlemek için tasarlanmış açık kaynaklı bir çerçevedir.
+HDFS (Hadoop Distributed File System), verileri dağıtık bir şekilde depolamak için kullanılır.
+MapReduce, büyük veri setlerini paralel olarak işlemek için bir programlama modelidir.
+MapReduce işleri, Map ve Reduce adı verilen iki aşamadan oluşur.
+Map işlevi verileri anahtar-değer çiftlerine dönüştürür.
+Reduce işlevi, aynı anahtara sahip değerleri birleştirir.
+Hadoop ekosistemi, Pig, Hive, HBase ve Spark gibi birçok aracı içerir.
