@@ -25,7 +25,7 @@ mkdir -p /opt/wordcount/input
 mkdir -p /opt/wordcount/classes
 
 # WordCount sınıfını derleme
-javac -classpath \$(hadoop classpath) -d /opt/wordcount/classes /opt/wordcount/WordCount.java
+javac -encoding UTF-8 -classpath \$(hadoop classpath) -d /opt/wordcount/classes /opt/wordcount/WordCount.java
 
 # JAR dosyası oluşturma
 jar -cvf /opt/wordcount/wordcount.jar -C /opt/wordcount/classes .
