@@ -16,7 +16,7 @@ while [ $retry_count -lt $max_retries ]; do
   if docker exec -it namenode hdfs dfs -ls / &> /dev/null; then
     echo "HDFS erişilebilir durumda!"
     
-    # Safe mode'u devre dışı bırakmayı deneyelim
+    # Safe mode'u devre dışı bırakalım
     docker exec -it namenode hdfs dfsadmin -safemode leave || true
     
     # HDFS'in safe mode'dan çıkıp çıkmadığını kontrol edelim
